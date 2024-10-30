@@ -1,0 +1,83 @@
+.main-page {
+  height: 100vh;
+  background-color: #ffffff;
+}
+header {
+  height: 80px;
+  background-color: #ffffff;
+}
+.carousel-item {
+  height: calc(100vh - 80px);
+}
+.c-1 {
+  background-size: cover;
+  background-image: url("/img/im-2.jpg");
+  background-position: center;
+}
+.c-2 {
+  background-size: cover;
+  background-image: url("/img/im-1.jpg");
+  background-position: center;
+}
+.c-3 {
+  background-size: cover;
+  background-image: url("/img/im-3.jpg");
+  background-position: center;
+}
+.tbox h1 {
+  font-weight: 500;
+}
+.inav i {
+  margin: 10px;
+}
+header .nav-link {
+  color: black;
+}
+.about {
+  height: 100vh;
+  background-color: #0d0d0d;
+}
+.img-box-2 {
+  height: 320px;
+}
+.im-1 {
+  background-image: url("/img/im-4.jpg");
+  background-size: cover;
+}
+.im-2 {
+  background-image: url("/img/im-5.jpg");
+  background-size: cover;
+}
+.text-2 {
+  width: 900px;
+}
+.gallery {
+  height: 70vh;
+}
+.gi-1 img {
+  height: 70vh;
+}
+.products h1 {
+  font-weight: 200;
+  font-size: 40px;
+}
+
+.product-img img {
+  height: 100%;
+  width: 100%;
+  object-fit: fill;
+}
+.testimonial {
+  height: 100vh;
+}
+.testimonial-box {
+  background-color: #ffffff;
+  /* // Shadoww */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19);
+}
+.testimonial img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  margin: 20px;
+}
